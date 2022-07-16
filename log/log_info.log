@@ -1,0 +1,1214 @@
+
+[2022-07-15 01:53:03,617: INFO: main]: Student Details
+[2022-07-15 01:53:03,617: INFO: student]: Student Name : Girija O K
+[2022-07-15 01:53:03,618: INFO: student]: Student Name : Girija O K
+[2022-07-15 01:53:03,618: INFO: student]: Student  Register Number: 10
+[2022-07-15 01:53:03,618: INFO: student]: Register number assignment : 100
+[2022-07-15 01:53:03,618: INFO: student]: Student Name : Girija O K
+[2022-07-15 01:53:03,618: INFO: student]: Student  Register Number: 100
+[2022-07-15 01:53:03,618: INFO: main]: Instructors
+[2022-07-15 01:53:03,618: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 01:53:03,618: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 01:53:03,618: INFO: ineuron]: Course list []
+[2022-07-15 01:53:03,618: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 01:53:03,618: ERROR: main]: 'courses' object has no attribute '_courses__fee'
+Traceback (most recent call last):
+  File "C:\Users\ASUS\PycharmProjects\class_assignment\main.py", line 35, in <module>
+    obj.add_course("Full stack FSDA" , 4000)
+  File "C:\Users\ASUS\PycharmProjects\class_assignment\ineuron.py", line 32, in add_course
+    print(i.course_info())
+  File "C:\Users\ASUS\PycharmProjects\class_assignment\course.py", line 10, in course_info
+    logging.info(f"Returns course information Name: {self.__course_name}, Fee: {self.__fee}  ")
+AttributeError: 'courses' object has no attribute '_courses__fee'
+[2022-07-15 01:54:47,145: INFO: main]: Student Details
+[2022-07-15 01:54:47,145: INFO: student]: Student Name : Girija O K
+[2022-07-15 01:54:47,145: INFO: student]: Student Name : Girija O K
+[2022-07-15 01:54:47,145: INFO: student]: Student  Register Number: 10
+[2022-07-15 01:54:47,146: INFO: student]: Register number assignment : 100
+[2022-07-15 01:54:47,146: INFO: student]: Student Name : Girija O K
+[2022-07-15 01:54:47,146: INFO: student]: Student  Register Number: 100
+[2022-07-15 01:54:47,146: INFO: main]: Instructors
+[2022-07-15 01:54:47,146: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 01:54:47,146: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 01:54:47,146: INFO: ineuron]: Course list []
+[2022-07-15 01:54:47,146: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 01:54:47,147: ERROR: main]: 'courses' object has no attribute '_courses__fee'
+Traceback (most recent call last):
+  File "C:\Users\ASUS\PycharmProjects\class_assignment\main.py", line 35, in <module>
+    obj.add_course("Full stack FSDA" , 4000)
+  File "C:\Users\ASUS\PycharmProjects\class_assignment\ineuron.py", line 32, in add_course
+    print(i.course_info())
+  File "C:\Users\ASUS\PycharmProjects\class_assignment\course.py", line 10, in course_info
+    logging.info(f"Returns course information Name: {self.__course_name}, Fee: {self.__fee}  ")
+AttributeError: 'courses' object has no attribute '_courses__fee'
+[2022-07-15 01:56:25,058: INFO: main]: Student Details
+[2022-07-15 01:56:25,058: INFO: student]: Student Name : Girija O K
+[2022-07-15 01:56:25,059: INFO: student]: Student Name : Girija O K
+[2022-07-15 01:56:25,059: INFO: student]: Student  Register Number: 10
+[2022-07-15 01:56:25,059: INFO: student]: Register number assignment : 100
+[2022-07-15 01:56:25,059: INFO: student]: Student Name : Girija O K
+[2022-07-15 01:56:25,059: INFO: student]: Student  Register Number: 100
+[2022-07-15 01:56:25,059: INFO: main]: Instructors
+[2022-07-15 01:56:25,059: ERROR: main]: name 'obj1' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ASUS\PycharmProjects\class_assignment\main.py", line 32, in <module>
+    print("Instructor-1 Details:", obj1.get_info())
+NameError: name 'obj1' is not defined
+[2022-07-15 01:56:54,273: INFO: main]: Student Details
+[2022-07-15 01:56:54,273: INFO: student]: Student Name : Girija O K
+[2022-07-15 01:56:54,273: INFO: student]: Student Name : Girija O K
+[2022-07-15 01:56:54,273: INFO: student]: Student  Register Number: 10
+[2022-07-15 01:56:54,273: INFO: student]: Register number assignment : 100
+[2022-07-15 01:56:54,273: INFO: student]: Student Name : Girija O K
+[2022-07-15 01:56:54,273: INFO: student]: Student  Register Number: 100
+[2022-07-15 01:56:54,273: INFO: main]: Instructors
+[2022-07-15 01:56:54,274: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 01:56:54,274: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 01:56:54,274: INFO: ineuron]: Course list []
+[2022-07-15 01:56:54,274: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 01:56:54,274: ERROR: main]: 'courses' object has no attribute '_courses__fee'
+Traceback (most recent call last):
+  File "C:\Users\ASUS\PycharmProjects\class_assignment\main.py", line 35, in <module>
+    a.add_course("Full stack FSDA" , 4000)
+  File "C:\Users\ASUS\PycharmProjects\class_assignment\ineuron.py", line 32, in add_course
+    print(i.course_info())
+  File "C:\Users\ASUS\PycharmProjects\class_assignment\course.py", line 10, in course_info
+    logging.info(f"Returns course information Name: {self.__course_name}, Fee: {self.__fee}  ")
+AttributeError: 'courses' object has no attribute '_courses__fee'
+[2022-07-15 01:59:42,630: INFO: main]: Student Details
+[2022-07-15 01:59:42,630: INFO: student]: Student Name : Girija O K
+[2022-07-15 01:59:42,630: INFO: student]: Student Name : Girija O K
+[2022-07-15 01:59:42,630: INFO: student]: Student  Register Number: 10
+[2022-07-15 01:59:42,630: INFO: student]: Register number assignment : 100
+[2022-07-15 01:59:42,630: INFO: student]: Student Name : Girija O K
+[2022-07-15 01:59:42,630: INFO: student]: Student  Register Number: 100
+[2022-07-15 01:59:42,630: INFO: main]: Instructors
+[2022-07-15 01:59:42,631: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 01:59:42,631: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 01:59:42,631: INFO: ineuron]: Course list []
+[2022-07-15 01:59:42,631: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 01:59:42,631: ERROR: main]: 'courses' object has no attribute '_courses__fee'
+Traceback (most recent call last):
+  File "C:\Users\ASUS\PycharmProjects\class_assignment\main.py", line 35, in <module>
+    a.add_course("Full stack FSDA" , 4000)
+  File "C:\Users\ASUS\PycharmProjects\class_assignment\ineuron.py", line 32, in add_course
+    print(i.course_info())
+  File "C:\Users\ASUS\PycharmProjects\class_assignment\course.py", line 10, in course_info
+    logging.info(f"Returns course information Name: {self.__course_name}, Fee: {self.__fee}  ")
+AttributeError: 'courses' object has no attribute '_courses__fee'
+[2022-07-15 02:02:33,508: INFO: main]: Student Details
+[2022-07-15 02:02:33,508: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:02:33,508: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:02:33,508: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:02:33,508: INFO: student]: Register number assignment : 100
+[2022-07-15 02:02:33,508: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:02:33,508: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:02:33,509: INFO: main]: Instructors
+[2022-07-15 02:02:33,509: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:02:33,509: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:02:33,509: INFO: ineuron]: Course list []
+[2022-07-15 02:02:33,509: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:02:33,509: ERROR: main]: 'courses' object has no attribute '_courses__fee'
+Traceback (most recent call last):
+  File "C:\Users\ASUS\PycharmProjects\class_assignment\main.py", line 35, in <module>
+    a.add_courses("Full stack FSDA" , 4000)
+  File "C:\Users\ASUS\PycharmProjects\class_assignment\ineuron.py", line 32, in add_courses
+    print(i.course_info())
+  File "C:\Users\ASUS\PycharmProjects\class_assignment\course.py", line 10, in course_info
+    logging.info(f"Returns course information Name: {self.__course_name}, Fee: {self.__fee}  ")
+AttributeError: 'courses' object has no attribute '_courses__fee'
+[2022-07-15 02:05:41,381: INFO: main]: Student Details
+[2022-07-15 02:05:41,381: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:05:41,381: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:05:41,381: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:05:41,381: INFO: student]: Register number assignment : 100
+[2022-07-15 02:05:41,381: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:05:41,381: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:05:41,382: INFO: main]: Instructors
+[2022-07-15 02:05:41,382: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:05:41,382: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:05:41,382: INFO: ineuron]: Course list []
+[2022-07-15 02:05:41,382: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:05:41,382: ERROR: main]: 'courses' object has no attribute '_courses__fee'
+Traceback (most recent call last):
+  File "C:\Users\ASUS\PycharmProjects\class_assignment\main.py", line 35, in <module>
+    a.add_courses("Full stack FSDA" , 4000)
+  File "C:\Users\ASUS\PycharmProjects\class_assignment\ineuron.py", line 32, in add_courses
+    print(i.course_info())
+  File "C:\Users\ASUS\PycharmProjects\class_assignment\course.py", line 10, in course_info
+    logging.info(f"Returns course information Name: {self.__course_name}, Fee: {self.__fee}  ")
+AttributeError: 'courses' object has no attribute '_courses__fee'
+[2022-07-15 02:08:39,890: INFO: main]: Student Details
+[2022-07-15 02:08:39,890: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:08:39,890: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:08:39,890: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:08:39,890: INFO: student]: Register number assignment : 100
+[2022-07-15 02:08:39,890: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:08:39,890: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:08:39,890: INFO: main]: Instructors
+[2022-07-15 02:08:39,891: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:08:39,891: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:08:39,891: INFO: ineuron]: Course list []
+[2022-07-15 02:08:39,891: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:08:39,891: ERROR: main]: 'courses' object has no attribute '_courses__fee'
+Traceback (most recent call last):
+  File "C:\Users\ASUS\PycharmProjects\class_assignment\main.py", line 35, in <module>
+    a.add_courses("Full stack FSDA" , 4000)
+  File "C:\Users\ASUS\PycharmProjects\class_assignment\ineuron.py", line 29, in add_courses
+    print(i.course_info())
+  File "C:\Users\ASUS\PycharmProjects\class_assignment\course.py", line 10, in course_info
+    logging.info(f"Returns course information Name: {self.__course_name}, Fee: {self.__fee}  ")
+AttributeError: 'courses' object has no attribute '_courses__fee'
+[2022-07-15 02:09:27,190: INFO: main]: Student Details
+[2022-07-15 02:09:27,190: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:09:27,190: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:09:27,190: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:09:27,190: INFO: student]: Register number assignment : 100
+[2022-07-15 02:09:27,191: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:09:27,191: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:09:27,191: INFO: main]: Instructors
+[2022-07-15 02:09:27,191: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:09:27,191: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:09:27,191: INFO: ineuron]: Course list []
+[2022-07-15 02:09:27,191: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:09:27,191: INFO: course]: Returns course information Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:09:27,191: INFO: ineuron]: Course list [<course.courses object at 0x0000022318496D10>]
+[2022-07-15 02:10:13,022: INFO: main]: Student Details
+[2022-07-15 02:10:13,022: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:10:13,022: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:10:13,022: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:10:13,022: INFO: student]: Register number assignment : 100
+[2022-07-15 02:10:13,023: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:10:13,023: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:10:13,023: INFO: main]: Instructors
+[2022-07-15 02:10:13,023: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:10:13,023: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:10:13,023: INFO: ineuron]: Course list []
+[2022-07-15 02:10:13,023: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:10:13,023: INFO: course]: Returns course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:10:13,023: INFO: ineuron]: Course list [<course.courses object at 0x000002298E476D10>]
+[2022-07-15 02:11:34,434: INFO: main]: Student Details
+[2022-07-15 02:11:34,434: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:11:34,434: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:11:34,434: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:11:34,434: INFO: student]: Register number assignment : 100
+[2022-07-15 02:11:34,434: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:11:34,434: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:11:34,434: INFO: main]: Instructors
+[2022-07-15 02:11:34,434: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:11:34,434: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:11:34,434: INFO: ineuron]: Course list []
+[2022-07-15 02:11:34,434: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:11:34,435: INFO: course]: Returns course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:11:34,435: INFO: ineuron]: Course list [<course.courses object at 0x00000160DD796D10>]
+[2022-07-15 02:12:49,445: INFO: main]: Student Details
+[2022-07-15 02:12:49,446: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:12:49,446: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:12:49,446: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:12:49,446: INFO: student]: Register number assignment : 100
+[2022-07-15 02:12:49,446: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:12:49,446: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:12:49,446: INFO: main]: Instructors
+[2022-07-15 02:12:49,446: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:12:49,446: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:12:49,447: INFO: ineuron]: Course list []
+[2022-07-15 02:12:49,447: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:12:49,447: INFO: course]: Returns course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:12:49,447: INFO: ineuron]: Course list [<course.courses object at 0x0000022A1D0B6D10>]
+[2022-07-15 02:13:04,735: INFO: main]: Student Details
+[2022-07-15 02:13:04,735: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:13:04,735: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:13:04,735: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:13:04,735: INFO: student]: Register number assignment : 100
+[2022-07-15 02:13:04,736: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:13:04,736: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:13:04,736: INFO: main]: Instructors
+[2022-07-15 02:13:04,736: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:13:04,736: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:13:04,736: INFO: ineuron]: Course list []
+[2022-07-15 02:13:04,736: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:13:04,736: INFO: course]: Returns course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:13:04,736: INFO: ineuron]: Course list [<course.courses object at 0x0000025DCFA36D10>]
+[2022-07-15 02:13:33,956: INFO: main]: Student Details
+[2022-07-15 02:13:33,956: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:13:33,956: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:13:33,956: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:13:33,956: INFO: student]: Register number assignment : 100
+[2022-07-15 02:13:33,956: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:13:33,956: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:13:33,957: INFO: main]: Instructors
+[2022-07-15 02:13:33,957: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:13:33,957: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:13:33,957: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:13:33,957: INFO: course]: Returns course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:13:33,957: INFO: ineuron]: Course list [<course.courses object at 0x000001BC2B116D10>]
+[2022-07-15 02:13:51,576: INFO: main]: Student Details
+[2022-07-15 02:13:51,576: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:13:51,576: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:13:51,576: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:13:51,576: INFO: student]: Register number assignment : 100
+[2022-07-15 02:13:51,576: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:13:51,576: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:13:51,576: INFO: main]: Instructors
+[2022-07-15 02:13:51,576: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:13:51,576: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:13:51,576: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:13:51,576: INFO: course]: Returns course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:13:51,577: INFO: ineuron]: Course list [<course.courses object at 0x000001959B4F6D10>]
+[2022-07-15 02:13:51,577: INFO: ineuron]: Course list [<course.courses object at 0x000001959B4F6D10>]
+[2022-07-15 02:14:35,651: INFO: main]: Student Details
+[2022-07-15 02:14:35,651: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:14:35,651: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:14:35,651: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:14:35,652: INFO: student]: Register number assignment : 100
+[2022-07-15 02:14:35,652: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:14:35,652: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:14:35,652: INFO: main]: Instructors
+[2022-07-15 02:14:35,652: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:14:35,652: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:14:35,652: INFO: ineuron]: Course list []
+[2022-07-15 02:14:35,652: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:14:35,652: INFO: course]: Returns course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:14:35,652: INFO: ineuron]: Course list [<course.courses object at 0x0000016F5E5C6D10>]
+[2022-07-15 02:15:32,170: INFO: main]: Student Details
+[2022-07-15 02:15:32,170: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:15:32,170: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:15:32,170: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:15:32,170: INFO: student]: Register number assignment : 100
+[2022-07-15 02:15:32,170: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:15:32,170: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:15:32,170: INFO: main]: Instructors
+[2022-07-15 02:15:32,171: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:15:32,171: ERROR: main]: name 'obj1' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ASUS\PycharmProjects\class_assignment\main.py", line 33, in <module>
+    print("Instructor-2 Details:", obj1.get_info())
+NameError: name 'obj1' is not defined
+[2022-07-15 02:15:47,067: INFO: main]: Student Details
+[2022-07-15 02:15:47,067: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:15:47,067: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:15:47,068: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:15:47,068: INFO: student]: Register number assignment : 100
+[2022-07-15 02:15:47,068: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:15:47,068: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:15:47,068: INFO: main]: Instructors
+[2022-07-15 02:15:47,068: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:15:47,068: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 02:15:47,068: INFO: ineuron]: Course list []
+[2022-07-15 02:15:47,068: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:15:47,068: INFO: course]: Returns course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:15:47,068: INFO: ineuron]: Course list [<course.courses object at 0x000001F7B9B86D10>]
+[2022-07-15 02:16:05,141: INFO: main]: Student Details
+[2022-07-15 02:16:05,141: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:16:05,141: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:16:05,141: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:16:05,142: INFO: student]: Register number assignment : 100
+[2022-07-15 02:16:05,142: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:16:05,142: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:16:05,142: INFO: main]: Instructors
+[2022-07-15 02:16:05,142: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:16:05,142: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 02:16:05,142: INFO: ineuron]: Course list []
+[2022-07-15 02:16:05,142: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:16:05,142: INFO: course]: Returns course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:16:05,142: INFO: ineuron]: Course list [<course.courses object at 0x00000189CC7C6D10>]
+[2022-07-15 02:16:56,476: INFO: main]: Student Details
+[2022-07-15 02:16:56,477: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:16:56,477: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:16:56,477: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:16:56,477: INFO: student]: Register number assignment : 100
+[2022-07-15 02:16:56,477: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:16:56,477: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:16:56,477: INFO: main]: Instructors
+[2022-07-15 02:16:56,477: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:16:56,477: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 02:16:56,477: INFO: ineuron]: Course list []
+[2022-07-15 02:16:56,478: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:16:56,478: INFO: course]: Returns course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:16:56,478: INFO: ineuron]: New course : Full stack FSDs,1700
+[2022-07-15 02:16:56,478: INFO: course]: Returns course information--> Name: Full stack FSDs, Fee: 1700  
+[2022-07-15 02:16:56,478: INFO: ineuron]: Course list [<course.courses object at 0x000001F6FB9408E0>]
+[2022-07-15 02:17:13,405: INFO: main]: Student Details
+[2022-07-15 02:17:13,405: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:17:13,406: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:17:13,406: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:17:13,406: INFO: student]: Register number assignment : 100
+[2022-07-15 02:17:13,406: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:17:13,406: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:17:13,406: INFO: main]: Instructors
+[2022-07-15 02:17:13,406: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:17:13,406: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 02:17:13,406: INFO: ineuron]: Course list []
+[2022-07-15 02:17:13,406: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:17:13,407: INFO: course]: Returns course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:17:13,407: INFO: ineuron]: New course : Full stack FSDs,1700
+[2022-07-15 02:17:13,407: INFO: course]: Returns course information--> Name: Full stack FSDs, Fee: 1700  
+[2022-07-15 02:17:38,507: INFO: main]: Student Details
+[2022-07-15 02:17:38,507: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:17:38,507: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:17:38,507: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:17:38,507: INFO: student]: Register number assignment : 100
+[2022-07-15 02:17:38,507: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:17:38,507: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:17:38,507: INFO: main]: Instructors
+[2022-07-15 02:17:38,507: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:17:38,508: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 02:17:38,508: INFO: ineuron]: Course list []
+[2022-07-15 02:17:38,508: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:17:38,508: INFO: course]: Returns course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:17:38,508: INFO: ineuron]: New course : Full stack FSDs,1700
+[2022-07-15 02:17:38,508: INFO: course]: Returns course information--> Name: Full stack FSDs, Fee: 1700  
+[2022-07-15 02:18:15,435: INFO: main]: Student Details
+[2022-07-15 02:18:15,435: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:18:15,435: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:18:15,435: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:18:15,435: INFO: student]: Register number assignment : 100
+[2022-07-15 02:18:15,435: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:18:15,435: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:18:15,435: INFO: main]: Instructors
+[2022-07-15 02:18:15,435: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:18:15,435: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 02:18:15,435: INFO: ineuron]: Course list []
+[2022-07-15 02:18:15,435: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:18:15,436: INFO: course]: Returns course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:18:15,436: INFO: ineuron]: New course : Full stack FSDs,1700
+[2022-07-15 02:18:15,436: INFO: course]: Returns course information--> Name: Full stack FSDs, Fee: 1700  
+[2022-07-15 02:19:20,239: INFO: main]: Student Details
+[2022-07-15 02:19:20,239: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:19:20,239: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:19:20,239: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:19:20,239: INFO: student]: Register number assignment : 100
+[2022-07-15 02:19:20,239: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:19:20,239: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:19:20,240: INFO: main]: Instructors
+[2022-07-15 02:19:20,240: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:19:20,240: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 02:19:20,240: INFO: ineuron]: Course list []
+[2022-07-15 02:19:20,240: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:19:20,240: INFO: ineuron]: New course : Full stack FSDs,1700
+[2022-07-15 02:19:45,523: INFO: main]: Student Details
+[2022-07-15 02:19:45,524: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:19:45,524: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:19:45,524: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:19:45,524: INFO: student]: Register number assignment : 100
+[2022-07-15 02:19:45,524: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:19:45,524: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:19:45,524: INFO: main]: Instructors
+[2022-07-15 02:19:45,524: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:19:45,524: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 02:19:45,524: INFO: ineuron]: Course list []
+[2022-07-15 02:19:45,524: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:19:45,524: INFO: course]: Returns course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:19:45,524: INFO: ineuron]: New course : Full stack FSDs,1700
+[2022-07-15 02:19:45,524: INFO: course]: Returns course information--> Name: Full stack FSDs, Fee: 1700  
+[2022-07-15 02:20:52,501: INFO: main]: Student Details
+[2022-07-15 02:20:52,501: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:20:52,501: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:20:52,501: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:20:52,501: INFO: student]: Register number assignment : 100
+[2022-07-15 02:20:52,501: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:20:52,501: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:20:52,501: INFO: main]: Instructors
+[2022-07-15 02:20:52,501: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:20:52,501: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 02:20:52,502: INFO: ineuron]: Course list []
+[2022-07-15 02:20:52,502: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:20:52,502: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:20:52,502: INFO: ineuron]: New course : Full stack FSDs,1700
+[2022-07-15 02:20:52,502: INFO: course]: Course information--> Name: Full stack FSDs, Fee: 1700  
+[2022-07-15 02:29:02,248: INFO: main]: Student Details
+[2022-07-15 02:29:02,248: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:29:02,248: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:29:02,248: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:29:02,248: INFO: student]: Register number assignment : 100
+[2022-07-15 02:29:02,248: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:29:02,248: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:29:02,248: INFO: main]: Instructors
+[2022-07-15 02:29:02,248: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:29:02,248: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 02:29:02,248: INFO: ineuron]: Course list []
+[2022-07-15 02:29:02,249: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:29:02,249: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:29:02,249: INFO: ineuron]: New course : Full stack FSDs,1700
+[2022-07-15 02:29:02,249: INFO: course]: Course information--> Name: Full stack FSDs, Fee: 1700  
+[2022-07-15 02:30:43,742: INFO: main]: Student Details
+[2022-07-15 02:30:43,742: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:30:43,742: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:30:43,742: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:30:43,742: INFO: student]: Register number assignment : 100
+[2022-07-15 02:30:43,743: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:30:43,743: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:30:43,743: INFO: main]: Instructors
+[2022-07-15 02:30:43,743: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:30:43,743: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 02:30:43,743: INFO: ineuron]: Course list []
+[2022-07-15 02:30:43,743: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:30:43,743: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:30:43,743: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 02:30:43,743: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:30:43,743: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 02:30:43,743: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 02:30:43,743: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:30:43,743: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 02:30:43,743: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 02:31:25,983: INFO: main]: Student Details
+[2022-07-15 02:31:25,984: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:31:25,984: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:31:25,984: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:31:25,984: INFO: student]: Register number assignment : 100
+[2022-07-15 02:31:25,984: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:31:25,984: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:31:25,984: INFO: main]: Instructors
+[2022-07-15 02:31:25,984: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:31:25,984: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 02:31:25,984: INFO: ineuron]: Course list []
+[2022-07-15 02:31:25,984: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:31:25,984: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:31:25,984: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 02:31:25,984: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:31:25,985: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 02:31:25,985: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 02:31:25,985: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:31:25,985: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 02:31:25,985: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 02:31:40,077: INFO: main]: Student Details
+[2022-07-15 02:31:40,077: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:31:40,077: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:31:40,078: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:31:40,078: INFO: student]: Register number assignment : 100
+[2022-07-15 02:31:40,078: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:31:40,078: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:31:40,078: INFO: main]: Instructors
+[2022-07-15 02:31:40,078: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:31:40,078: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 02:31:40,078: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:31:40,078: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:31:40,078: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 02:31:40,078: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:31:40,078: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 02:31:40,078: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 02:31:40,079: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:31:40,079: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 02:31:40,079: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 02:32:10,063: INFO: main]: Student Details
+[2022-07-15 02:32:10,063: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:32:10,063: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:32:10,063: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:32:10,063: INFO: student]: Register number assignment : 100
+[2022-07-15 02:32:10,064: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:32:10,064: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:32:10,064: INFO: main]: Instructors
+[2022-07-15 02:32:10,064: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:32:10,064: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 02:32:10,064: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:32:10,064: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:32:10,064: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 02:32:10,064: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:32:10,064: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 02:32:10,064: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 02:32:10,064: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:32:10,064: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 02:32:10,064: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 02:32:10,064: INFO: ineuron]: Course list [<course.courses object at 0x0000017A57AB6D10>, <course.courses object at 0x0000017A57F308E0>, <course.courses object at 0x0000017A57F30970>]
+[2022-07-15 02:32:55,392: INFO: main]: Student Details
+[2022-07-15 02:32:55,393: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:32:55,393: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:32:55,393: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:32:55,393: INFO: student]: Register number assignment : 100
+[2022-07-15 02:32:55,393: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:32:55,393: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:32:55,394: INFO: main]: Instructors
+[2022-07-15 02:32:55,394: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:32:55,394: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 02:32:55,394: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:32:55,394: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:32:55,394: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 02:32:55,394: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:32:55,394: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 02:32:55,394: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 02:32:55,394: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:32:55,394: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 02:32:55,394: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 02:33:02,494: INFO: main]: Student Details
+[2022-07-15 02:33:02,495: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:33:02,495: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:33:02,495: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:33:02,495: INFO: student]: Register number assignment : 100
+[2022-07-15 02:33:02,495: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:33:02,495: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:33:02,495: INFO: main]: Instructors
+[2022-07-15 02:33:02,495: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:33:02,495: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 02:33:02,496: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:33:02,496: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:33:02,496: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 02:33:02,496: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:33:02,496: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 02:33:02,496: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 02:33:02,496: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:33:02,496: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 02:33:02,496: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 02:35:23,914: INFO: main]: Student Details
+[2022-07-15 02:35:23,914: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:35:23,914: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:35:23,914: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:35:23,914: INFO: student]: Register number assignment : 100
+[2022-07-15 02:35:23,914: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:35:23,914: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:35:23,914: INFO: main]: Instructors
+[2022-07-15 02:35:23,914: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:35:23,914: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 02:35:23,914: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:35:23,914: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:35:23,914: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 02:35:23,915: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:35:23,915: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 02:35:23,915: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 02:35:23,915: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:35:23,915: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 02:35:23,915: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 02:35:23,915: INFO: ineuron]: Course list [<course.courses object at 0x000002126D586D10>, <course.courses object at 0x000002126DA008E0>, <course.courses object at 0x000002126DA00970>]
+[2022-07-15 02:36:42,826: INFO: main]: Student Details
+[2022-07-15 02:36:42,826: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:36:42,826: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:36:42,826: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:36:42,827: INFO: student]: Register number assignment : 100
+[2022-07-15 02:36:42,827: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:36:42,827: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:36:42,827: INFO: main]: Instructors
+[2022-07-15 02:36:42,827: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:36:42,827: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 02:36:42,827: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:36:42,827: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:36:42,827: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 02:36:42,827: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:36:42,827: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 02:36:42,827: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 02:36:42,828: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:36:42,828: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 02:36:42,828: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 02:36:42,828: INFO: ineuron]: Course list [<course.courses object at 0x0000026CE47A27A0>, <course.courses object at 0x0000026CE47A3910>, <course.courses object at 0x0000026CE47A3940>]
+[2022-07-15 02:37:58,137: INFO: main]: Student Details
+[2022-07-15 02:37:58,137: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:37:58,137: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:37:58,137: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:37:58,137: INFO: student]: Register number assignment : 100
+[2022-07-15 02:37:58,137: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:37:58,137: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:37:58,137: INFO: main]: Instructors
+[2022-07-15 02:37:58,138: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:37:58,138: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 02:37:58,138: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:37:58,138: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:37:58,138: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 02:37:58,138: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:37:58,138: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 02:37:58,138: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:37:58,138: INFO: ineuron]: Course list [<course.courses object at 0x000001FAB1BC27A0>, <course.courses object at 0x000001FAB1BC3910>, <course.courses object at 0x000001FAB1BC3940>]
+[2022-07-15 02:38:42,635: INFO: main]: Student Details
+[2022-07-15 02:38:42,635: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:38:42,636: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:38:42,636: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:38:42,636: INFO: student]: Register number assignment : 100
+[2022-07-15 02:38:42,636: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:38:42,636: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:38:42,636: INFO: main]: Instructors
+[2022-07-15 02:38:42,636: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:38:42,636: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 02:38:42,637: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:38:42,637: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:38:42,637: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 02:38:42,637: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:38:42,637: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 02:38:42,637: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 02:38:42,637: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:38:42,637: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 02:38:42,637: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 02:38:42,638: INFO: ineuron]: Course list [<course.courses object at 0x000002A0D3F727A0>, <course.courses object at 0x000002A0D3F73910>, <course.courses object at 0x000002A0D3F73940>]
+[2022-07-15 02:39:25,486: INFO: main]: Student Details
+[2022-07-15 02:39:25,487: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:39:25,487: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:39:25,487: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:39:25,487: INFO: student]: Register number assignment : 100
+[2022-07-15 02:39:25,487: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:39:25,487: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:39:25,487: INFO: main]: Instructors
+[2022-07-15 02:39:25,487: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:39:25,487: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 02:39:25,487: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:39:25,487: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:39:25,487: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 02:39:25,488: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 02:39:25,488: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 02:39:25,488: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 02:39:25,488: INFO: ineuron]: Course list [<course.courses object at 0x000002BDF4F027A0>, <course.courses object at 0x000002BDF4F03910>, <course.courses object at 0x000002BDF4F03940>]
+[2022-07-15 02:56:24,349: INFO: main]: Student Details
+[2022-07-15 02:56:24,350: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:56:24,350: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:56:24,350: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:56:24,350: INFO: student]: Register number assignment : 100
+[2022-07-15 02:56:24,350: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:56:24,350: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:56:24,350: INFO: main]: Instructors
+[2022-07-15 02:56:24,350: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:56:24,350: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 02:56:24,350: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:56:24,350: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:56:24,350: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 02:56:24,350: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 02:56:24,351: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 02:56:24,351: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 02:56:24,351: INFO: ineuron]: Course list [<course.courses object at 0x0000022FA6DE7490>, <course.courses object at 0x0000022FA722EDD0>, <course.courses object at 0x0000022FA722EDA0>]
+[2022-07-15 02:59:02,920: INFO: main]: Student Details
+[2022-07-15 02:59:02,920: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:59:02,920: INFO: student]: Student  Register Number: 10
+[2022-07-15 02:59:02,920: INFO: student]: Register number assignment : 100
+[2022-07-15 02:59:02,920: INFO: student]: Student Name : Girija O K
+[2022-07-15 02:59:02,921: INFO: student]: Student  Register Number: 100
+[2022-07-15 02:59:02,921: INFO: main]: Instructors
+[2022-07-15 02:59:02,921: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 02:59:02,921: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 02:59:02,921: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 02:59:02,921: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 02:59:02,921: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 02:59:02,921: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 02:59:02,921: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 02:59:02,921: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 02:59:02,921: INFO: ineuron]: Course list [<course.courses object at 0x00000268028A7310>, <course.courses object at 0x0000026802CEEE60>, <course.courses object at 0x0000026802CEEE30>]
+[2022-07-15 03:01:57,754: INFO: main]: Student Details
+[2022-07-15 03:01:57,755: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:01:57,755: INFO: student]: Student  Register Number: 10
+[2022-07-15 03:01:57,755: INFO: student]: Register number assignment : 100
+[2022-07-15 03:01:57,755: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:01:57,755: INFO: student]: Student  Register Number: 100
+[2022-07-15 03:01:57,755: INFO: main]: Instructors
+[2022-07-15 03:01:57,755: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 03:01:57,755: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 03:01:57,755: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 03:01:57,755: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 03:01:57,755: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 03:01:57,756: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 03:01:57,756: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 03:01:57,756: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 03:01:57,756: INFO: ineuron]: Course list [<course.courses object at 0x00000210C88871F0>, <course.courses object at 0x00000210C8CCEE90>, <course.courses object at 0x00000210C8CCEE60>]
+[2022-07-15 03:02:04,898: INFO: main]: Student Details
+[2022-07-15 03:02:04,898: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:02:04,898: INFO: student]: Student  Register Number: 10
+[2022-07-15 03:02:04,898: INFO: student]: Register number assignment : 100
+[2022-07-15 03:02:04,898: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:02:04,899: INFO: student]: Student  Register Number: 100
+[2022-07-15 03:02:04,899: INFO: main]: Instructors
+[2022-07-15 03:02:04,899: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 03:02:04,899: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 03:02:04,899: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 03:02:04,899: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 03:02:04,899: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 03:02:04,899: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 03:02:04,899: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 03:02:04,899: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 03:02:04,899: INFO: ineuron]: Course list [<course.courses object at 0x000002678C997310>, <course.courses object at 0x000002678CDDEE60>, <course.courses object at 0x000002678CDDEE30>]
+[2022-07-15 03:03:31,280: INFO: main]: Student Details
+[2022-07-15 03:03:31,281: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:03:31,281: INFO: student]: Student  Register Number: 10
+[2022-07-15 03:03:31,281: INFO: student]: Register number assignment : 100
+[2022-07-15 03:06:00,011: INFO: main]: Student Details
+[2022-07-15 03:06:00,011: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:06:00,011: INFO: student]: Student  Register Number: 10
+[2022-07-15 03:06:00,011: INFO: student]: Register number assignment : 100
+[2022-07-15 03:06:00,011: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:06:00,011: INFO: student]: Student  Register Number: 100
+[2022-07-15 03:06:00,011: INFO: main]: Instructors
+[2022-07-15 03:06:00,012: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 03:06:00,012: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 03:06:00,012: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 03:06:00,012: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 03:06:00,012: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 03:06:00,012: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 03:06:00,012: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 03:06:00,012: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 03:06:00,012: INFO: ineuron]: Course list [<course.courses object at 0x0000016E80EE6C80>, <course.courses object at 0x0000016E81360970>, <course.courses object at 0x0000016E81360A00>]
+[2022-07-15 03:07:37,015: INFO: main]: Student Details
+[2022-07-15 03:07:37,015: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:07:37,015: INFO: student]: Student  Register Number: 10
+[2022-07-15 03:07:37,015: INFO: student]: Register number assignment : 100
+[2022-07-15 03:07:37,015: INFO: student]: Student Name : Maya
+[2022-07-15 03:07:37,015: INFO: student]: Student  Register Number: 10
+[2022-07-15 03:07:37,015: INFO: main]: Instructors
+[2022-07-15 03:07:37,016: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 03:07:37,016: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 03:07:37,016: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 03:07:37,016: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 03:07:37,016: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 03:07:37,016: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 03:07:37,016: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 03:07:37,016: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 03:07:37,017: INFO: ineuron]: Course list [<course.courses object at 0x0000025CECC76C80>, <course.courses object at 0x0000025CED0F0A00>, <course.courses object at 0x0000025CED0F0A90>]
+[2022-07-15 03:07:56,975: INFO: main]: Student Details
+[2022-07-15 03:07:56,975: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:07:56,975: INFO: student]: Student  Register Number: 10
+[2022-07-15 03:07:56,975: INFO: student]: Register number assignment : 100
+[2022-07-15 03:07:56,975: INFO: student]: Student Name : Maya
+[2022-07-15 03:07:56,975: INFO: student]: Student  Register Number: 100
+[2022-07-15 03:07:56,975: INFO: main]: Instructors
+[2022-07-15 03:07:56,976: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 03:07:56,976: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 03:07:56,976: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 03:07:56,976: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 03:07:56,976: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 03:07:56,976: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 03:07:56,976: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 03:07:56,976: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 03:07:56,976: INFO: ineuron]: Course list [<course.courses object at 0x00000142176D6C80>, <course.courses object at 0x0000014217B50A00>, <course.courses object at 0x0000014217B50A90>]
+[2022-07-15 03:11:07,037: INFO: main]: Student Details
+[2022-07-15 03:11:07,037: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:11:07,037: INFO: student]: Student  Register Number: 10
+[2022-07-15 03:11:07,037: INFO: student]: Register number assignment : 200
+[2022-07-15 03:11:07,037: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:11:07,037: INFO: student]: Student  Register Number: 200
+[2022-07-15 03:11:07,037: INFO: student]: Register number assignment : 100
+[2022-07-15 03:11:07,037: INFO: student]: Student Name : Maya
+[2022-07-15 03:11:07,037: INFO: student]: Student  Register Number: 100
+[2022-07-15 03:11:07,037: INFO: main]: Instructors
+[2022-07-15 03:11:07,038: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 03:11:07,038: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 03:11:07,038: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 03:11:07,038: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 03:11:07,038: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 03:11:07,038: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 03:11:07,038: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 03:11:07,038: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 03:11:07,038: INFO: ineuron]: Course list [<course.courses object at 0x00000250A5816C80>, <course.courses object at 0x00000250A5C90B20>, <course.courses object at 0x00000250A5C90BB0>]
+[2022-07-15 03:15:04,297: INFO: main]: Student Details
+[2022-07-15 03:15:04,297: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:15:04,298: INFO: student]: Student  Register Number: 10
+[2022-07-15 03:15:04,298: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:15:04,298: INFO: student]: Student  Register Number: 10
+[2022-07-15 03:15:04,298: INFO: student]: Register number assignment : 100
+[2022-07-15 03:15:04,298: INFO: student]: Student Name : Maya
+[2022-07-15 03:15:04,298: INFO: student]: Student  Register Number: 100
+[2022-07-15 03:15:04,298: INFO: main]: Instructors
+[2022-07-15 03:15:04,298: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 03:15:04,298: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 03:15:04,298: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 03:15:04,298: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 03:15:04,298: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 03:15:04,298: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 03:15:04,298: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 03:15:04,298: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 03:15:04,299: INFO: ineuron]: Course list [<course.courses object at 0x00000188AB997430>, <course.courses object at 0x00000188ABDDEF80>, <course.courses object at 0x00000188ABDDEF50>]
+[2022-07-15 03:18:04,490: INFO: main]: Student Details
+[2022-07-15 03:18:04,490: INFO: student]: Student Name assignment : Girija O K
+[2022-07-15 03:18:04,490: ERROR: student]: 'student' object has no attribute 'name'
+Traceback (most recent call last):
+  File "C:\Users\ASUS\PycharmProjects\class_assignment\student.py", line 22, in stud_info
+    logging.info(f"Student Name : {self.name}")
+AttributeError: 'student' object has no attribute 'name'
+[2022-07-15 03:18:04,492: INFO: student]: Register number assignment : 100
+[2022-07-15 03:18:04,492: ERROR: student]: 'student' object has no attribute 'name'
+Traceback (most recent call last):
+  File "C:\Users\ASUS\PycharmProjects\class_assignment\student.py", line 22, in stud_info
+    logging.info(f"Student Name : {self.name}")
+AttributeError: 'student' object has no attribute 'name'
+[2022-07-15 03:18:04,492: INFO: main]: Instructors
+[2022-07-15 03:18:04,492: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 03:18:04,492: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 03:18:04,492: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 03:18:04,492: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 03:18:04,492: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 03:18:04,492: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 03:18:04,492: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 03:18:04,493: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 03:18:04,493: INFO: ineuron]: Course list [<course.courses object at 0x000001910193EE00>, <course.courses object at 0x000001910193EF20>, <course.courses object at 0x000001910193EFB0>]
+[2022-07-15 03:19:14,912: INFO: main]: Student Details
+[2022-07-15 03:19:14,912: INFO: student]: Student Name assignment : Girija O K
+[2022-07-15 03:19:14,912: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:19:14,912: INFO: student]: Student  Register Number: 10
+[2022-07-15 03:19:14,912: INFO: student]: Register number assignment : 100
+[2022-07-15 03:19:14,912: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:19:14,912: INFO: student]: Student  Register Number: 100
+[2022-07-15 03:19:14,913: INFO: main]: Instructors
+[2022-07-15 03:19:14,913: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 03:19:14,913: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 03:19:14,913: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 03:19:14,913: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 03:19:14,913: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 03:19:14,913: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 03:19:14,913: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 03:19:14,913: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 03:19:14,913: INFO: ineuron]: Course list [<course.courses object at 0x000001BB56F774F0>, <course.courses object at 0x000001BB573BEDA0>, <course.courses object at 0x000001BB573BED70>]
+[2022-07-15 03:19:32,649: INFO: main]: Student Details
+[2022-07-15 03:19:32,649: INFO: student]: Student Name assignment : Girija O K
+[2022-07-15 03:19:32,649: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:19:32,649: INFO: student]: Student  Register Number: 10
+[2022-07-15 03:19:32,649: INFO: student]: Register number assignment : 100
+[2022-07-15 03:19:32,649: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:19:32,650: INFO: student]: Student  Register Number: 100
+[2022-07-15 03:19:32,650: INFO: main]: Instructors
+[2022-07-15 03:19:32,650: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 03:19:32,650: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 03:19:32,650: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 03:19:32,650: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 03:19:32,650: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 03:19:32,650: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 03:19:32,650: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 03:19:32,650: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 03:19:32,650: INFO: ineuron]: Course list [<course.courses object at 0x000001B227CE6D40>, <course.courses object at 0x000001B2281648B0>, <course.courses object at 0x000001B228164940>]
+[2022-07-15 03:20:03,968: INFO: main]: Student Details
+[2022-07-15 03:21:09,567: INFO: main]: Student Details
+[2022-07-15 03:21:37,996: INFO: main]: Student Details
+[2022-07-15 03:21:37,996: INFO: student]: Student Name assignment : Girija O K
+[2022-07-15 03:21:37,996: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:21:37,996: INFO: student]: Student  Register Number: 10
+[2022-07-15 03:21:37,996: INFO: student]: Register number assignment : 100
+[2022-07-15 03:21:37,996: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:21:37,996: INFO: student]: Student  Register Number: 100
+[2022-07-15 03:21:37,996: INFO: main]: Instructors
+[2022-07-15 03:21:37,996: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 03:21:37,997: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 03:21:37,997: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 03:21:37,997: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 03:21:37,997: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 03:21:37,997: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 03:21:37,997: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 03:21:37,997: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 03:21:37,997: INFO: ineuron]: Course list [<course.courses object at 0x000001F7AAF66D40>, <course.courses object at 0x000001F7AB3E48B0>, <course.courses object at 0x000001F7AB3E4940>]
+[2022-07-15 03:23:55,239: INFO: main]: Student Details
+[2022-07-15 03:23:55,239: INFO: student]: Student Name assignment : Girija O K
+[2022-07-15 03:23:55,239: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:23:55,239: INFO: student]: Student  Register Number: 10
+[2022-07-15 03:23:55,239: INFO: student]: Register number assignment : 100
+[2022-07-15 03:23:55,239: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:23:55,240: INFO: student]: Student  Register Number: 100
+[2022-07-15 03:23:55,240: INFO: main]: Instructors
+[2022-07-15 03:23:55,240: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 03:23:55,240: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 03:23:55,240: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 03:23:55,240: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 03:23:55,240: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 03:23:55,240: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 03:23:55,240: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 03:23:55,241: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 03:23:55,241: INFO: ineuron]: Course list [<course.courses object at 0x000002168A0E74C0>, <course.courses object at 0x000002168A52EDA0>, <course.courses object at 0x000002168A52ED70>]
+[2022-07-15 03:24:37,686: INFO: main]: Student Details
+[2022-07-15 03:24:37,687: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:24:37,687: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:24:37,687: INFO: student]: Student  Register Number: 10
+[2022-07-15 03:24:37,687: INFO: student]: Register number assignment : 100
+[2022-07-15 03:24:37,687: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:24:37,687: INFO: student]: Student  Register Number: 100
+[2022-07-15 03:24:37,687: INFO: main]: Instructors
+[2022-07-15 03:24:37,687: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 03:24:37,687: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 03:24:37,687: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 03:24:37,687: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 03:24:37,687: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 03:24:37,687: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 03:24:37,687: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 03:24:37,688: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 03:24:37,688: INFO: ineuron]: Course list [<course.courses object at 0x00000252566774C0>, <course.courses object at 0x0000025256ABEDA0>, <course.courses object at 0x0000025256ABED70>]
+[2022-07-15 03:29:14,360: INFO: main]: Student Details
+[2022-07-15 03:29:48,898: INFO: main]: Student Details
+[2022-07-15 03:29:48,898: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:29:48,898: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:29:48,898: INFO: student]: Student  Register Number: 10
+[2022-07-15 03:29:48,898: INFO: student]: Register number assignment : 100
+[2022-07-15 03:29:48,899: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:29:48,899: INFO: student]: Student  Register Number: 10
+[2022-07-15 03:29:48,899: INFO: main]: Instructors
+[2022-07-15 03:29:48,899: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 03:29:48,899: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 03:29:48,899: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 03:29:48,899: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 03:29:48,899: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 03:29:48,899: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 03:29:48,899: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 03:29:48,899: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 03:29:48,899: INFO: ineuron]: Course list [<course.courses object at 0x0000019D288A74C0>, <course.courses object at 0x0000019D28CEEDA0>, <course.courses object at 0x0000019D28CEED70>]
+[2022-07-15 03:30:08,194: INFO: main]: Student Details
+[2022-07-15 03:30:08,194: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:30:08,194: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:30:08,194: INFO: student]: Student  Register Number: 10
+[2022-07-15 03:30:08,194: INFO: student]: Register number assignment : 100
+[2022-07-15 03:30:08,194: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:30:08,194: INFO: student]: Student  Register Number: 10
+[2022-07-15 03:30:08,194: INFO: main]: Instructors
+[2022-07-15 03:30:08,195: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 03:30:08,195: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 03:30:08,195: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 03:30:08,195: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 03:30:08,195: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 03:30:08,195: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 03:30:08,195: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 03:30:08,195: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 03:30:08,195: INFO: ineuron]: Course list [<course.courses object at 0x0000026DB4F16D40>, <course.courses object at 0x0000026DB53948B0>, <course.courses object at 0x0000026DB5394940>]
+[2022-07-15 03:30:36,622: INFO: main]: Student Details
+[2022-07-15 03:30:36,622: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:30:36,622: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:30:36,622: INFO: student]: Student  Register Number: 10
+[2022-07-15 03:30:36,622: INFO: student]: Register number assignment : 100
+[2022-07-15 03:30:36,623: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:30:36,623: INFO: student]: Student  Register Number: 100
+[2022-07-15 03:30:36,623: INFO: main]: Instructors
+[2022-07-15 03:30:36,623: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 03:30:36,623: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 03:30:36,623: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 03:30:36,623: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 03:30:36,623: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 03:30:36,623: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 03:30:36,623: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 03:30:36,623: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 03:30:36,623: INFO: ineuron]: Course list [<course.courses object at 0x00000127B5A774C0>, <course.courses object at 0x00000127B5EBEDA0>, <course.courses object at 0x00000127B5EBED70>]
+[2022-07-15 03:38:38,471: INFO: main]: Student Details
+[2022-07-15 03:38:38,471: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:38:38,471: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:38:38,471: INFO: student]: Student  Register Number: 10
+[2022-07-15 03:38:38,471: INFO: student]: Register number assignment : 100
+[2022-07-15 03:38:38,471: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:38:38,471: INFO: student]: Student  Register Number: 100
+[2022-07-15 03:38:38,471: INFO: main]: Instructors
+[2022-07-15 03:38:38,471: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 03:38:38,471: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 03:38:38,471: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 03:38:38,471: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 03:38:38,472: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 03:38:38,472: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 03:38:38,472: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 03:38:38,472: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 03:38:38,472: INFO: ineuron]: Course list [<course.courses object at 0x00000136A4996D40>, <course.courses object at 0x00000136A4E148B0>, <course.courses object at 0x00000136A4E14940>]
+[2022-07-15 03:57:06,666: INFO: main]: Student Details
+[2022-07-15 03:57:06,666: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:57:06,666: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:57:06,666: INFO: student]: Student  Register Number: 10
+[2022-07-15 03:57:06,667: INFO: student]: Register number assignment : 100
+[2022-07-15 03:57:06,667: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:57:06,667: INFO: student]: Student  Register Number: 100
+[2022-07-15 03:57:06,667: INFO: main]: Job Details
+[2022-07-15 03:58:38,581: INFO: main]: Student Details
+[2022-07-15 03:58:38,581: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:58:38,581: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:58:38,581: INFO: student]: Student  Register Number: 10
+[2022-07-15 03:58:38,581: INFO: student]: Register number assignment : 100
+[2022-07-15 03:58:38,581: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:58:38,582: INFO: student]: Student  Register Number: 100
+[2022-07-15 03:58:38,582: INFO: main]: Job Details
+[2022-07-15 03:59:13,467: INFO: main]: Student Details
+[2022-07-15 03:59:13,467: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:59:13,467: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:59:13,467: INFO: student]: Student  Register Number: 10
+[2022-07-15 03:59:13,467: INFO: student]: Register number assignment : 100
+[2022-07-15 03:59:13,467: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:59:13,467: INFO: student]: Student  Register Number: 100
+[2022-07-15 03:59:13,467: INFO: main]: Job Details
+[2022-07-15 03:59:13,467: INFO: main]: Instructors
+[2022-07-15 03:59:13,467: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 03:59:13,468: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 03:59:13,468: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 03:59:13,468: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 03:59:13,468: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 03:59:13,468: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 03:59:13,468: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 03:59:13,468: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 03:59:13,468: INFO: ineuron]: Course list [<course.courses object at 0x000001D7D6FE33D0>, <course.courses object at 0x000001D7D6FE3430>, <course.courses object at 0x000001D7D6FE3790>]
+[2022-07-15 03:59:43,864: INFO: main]: Student Details
+[2022-07-15 03:59:43,864: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:59:43,864: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:59:43,865: INFO: student]: Student  Register Number: 10
+[2022-07-15 03:59:43,865: INFO: student]: Register number assignment : 100
+[2022-07-15 03:59:43,865: INFO: student]: Student Name : Girija O K
+[2022-07-15 03:59:43,865: INFO: student]: Student  Register Number: 100
+[2022-07-15 03:59:43,865: INFO: main]: Job Details
+[2022-07-15 03:59:43,865: INFO: main]: Instructors
+[2022-07-15 03:59:43,865: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 03:59:43,865: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 03:59:43,865: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 03:59:43,865: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 03:59:43,865: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 03:59:43,865: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 03:59:43,866: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 03:59:43,866: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 03:59:43,866: INFO: ineuron]: Course list [<course.courses object at 0x0000014B45AE0D60>, <course.courses object at 0x0000014B45AE0EB0>, <course.courses object at 0x0000014B45AE0EE0>]
+[2022-07-15 04:00:34,170: INFO: main]: Student Details
+[2022-07-15 04:00:34,170: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:00:34,170: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:00:34,170: INFO: student]: Student  Register Number: 10
+[2022-07-15 04:00:34,170: INFO: student]: Register number assignment : 100
+[2022-07-15 04:00:34,171: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:00:34,171: INFO: student]: Student  Register Number: 100
+[2022-07-15 04:00:34,171: INFO: main]: Job Details
+[2022-07-15 04:00:34,171: INFO: main]: Instructors
+[2022-07-15 04:00:34,171: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 04:00:34,171: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 04:00:34,171: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 04:00:34,171: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 04:00:34,171: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 04:00:34,171: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 04:00:34,171: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 04:00:34,171: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 04:00:34,171: INFO: ineuron]: Course list [<course.courses object at 0x0000017D6F193430>, <course.courses object at 0x0000017D6F193490>, <course.courses object at 0x0000017D6F1937F0>]
+[2022-07-15 04:01:15,196: INFO: main]: Student Details
+[2022-07-15 04:01:15,196: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:01:15,196: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:01:15,196: INFO: student]: Student  Register Number: 10
+[2022-07-15 04:01:15,196: INFO: student]: Register number assignment : 100
+[2022-07-15 04:01:15,196: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:01:15,196: INFO: student]: Student  Register Number: 100
+[2022-07-15 04:01:15,196: INFO: main]: Job Details
+[2022-07-15 04:01:15,196: INFO: main]: Instructors
+[2022-07-15 04:01:15,196: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 04:01:15,196: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 04:01:15,197: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 04:01:15,197: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 04:01:15,197: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 04:01:15,197: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 04:01:15,197: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 04:01:15,197: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 04:01:15,197: INFO: ineuron]: Course list [<course.courses object at 0x000002400EE73430>, <course.courses object at 0x000002400EE73490>, <course.courses object at 0x000002400EE737F0>]
+[2022-07-15 04:01:40,279: INFO: main]: Student Details
+[2022-07-15 04:01:40,279: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:01:40,279: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:01:40,279: INFO: student]: Student  Register Number: 10
+[2022-07-15 04:01:40,280: INFO: student]: Register number assignment : 100
+[2022-07-15 04:01:40,280: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:01:40,280: INFO: student]: Student  Register Number: 100
+[2022-07-15 04:01:40,280: INFO: main]: Instructors
+[2022-07-15 04:01:40,280: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 04:01:40,280: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 04:01:40,281: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 04:01:40,281: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 04:01:40,281: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 04:01:40,281: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 04:01:40,281: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 04:01:40,281: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 04:01:40,281: INFO: ineuron]: Course list [<course.courses object at 0x000002ADAC393160>, <course.courses object at 0x000002ADAC393430>, <course.courses object at 0x000002ADAC393490>]
+[2022-07-15 04:01:40,281: INFO: main]: Job Details
+[2022-07-15 04:02:14,746: INFO: main]: Student Details
+[2022-07-15 04:02:14,746: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:02:14,747: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:02:14,747: INFO: student]: Student  Register Number: 10
+[2022-07-15 04:02:14,747: INFO: student]: Register number assignment : 100
+[2022-07-15 04:02:14,747: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:02:14,747: INFO: student]: Student  Register Number: 100
+[2022-07-15 04:02:14,747: INFO: main]: Instructors
+[2022-07-15 04:02:14,747: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 04:02:14,747: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 04:02:14,747: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 04:02:14,747: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 04:02:14,747: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 04:02:14,747: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 04:02:14,747: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 04:02:14,747: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 04:02:14,747: INFO: ineuron]: Course list [<course.courses object at 0x0000024DD5376D40>, <course.courses object at 0x0000024DD57F48B0>, <course.courses object at 0x0000024DD57F4940>]
+[2022-07-15 04:17:47,591: INFO: main]: Student Details
+[2022-07-15 04:17:47,592: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:17:47,592: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:17:47,592: INFO: student]: Student  Register Number: 10
+[2022-07-15 04:17:47,592: INFO: student]: Register number assignment : 100
+[2022-07-15 04:17:47,592: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:17:47,592: INFO: student]: Student  Register Number: 100
+[2022-07-15 04:17:47,592: INFO: main]: Instructors
+[2022-07-15 04:17:47,593: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 04:17:47,593: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 04:17:47,593: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 04:17:47,593: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 04:17:47,593: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 04:17:47,593: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 04:17:47,594: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 04:17:47,594: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 04:17:47,594: INFO: ineuron]: Course list [<course.courses object at 0x000001D1B2F232B0>, <course.courses object at 0x000001D1B2F23310>, <course.courses object at 0x000001D1B2F23670>]
+[2022-07-15 04:17:47,594: INFO: main]: Job Information
+[2022-07-15 04:21:06,830: INFO: main]: Student Details
+[2022-07-15 04:21:06,830: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:21:06,830: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:21:06,830: INFO: student]: Student  Register Number: 10
+[2022-07-15 04:21:06,830: INFO: student]: Register number assignment : 100
+[2022-07-15 04:21:06,830: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:21:06,830: INFO: student]: Student  Register Number: 100
+[2022-07-15 04:21:06,830: INFO: main]: Instructors
+[2022-07-15 04:21:06,830: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 04:21:06,830: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 04:21:06,830: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 04:21:06,830: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 04:21:06,831: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 04:21:06,831: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 04:21:06,831: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 04:21:06,831: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 04:21:06,831: INFO: ineuron]: Course list [<course.courses object at 0x0000020A009C3130>, <course.courses object at 0x0000020A009C3400>, <course.courses object at 0x0000020A009C3460>]
+[2022-07-15 04:21:06,831: INFO: main]: Job Information
+[2022-07-15 04:22:00,756: INFO: main]: Student Details
+[2022-07-15 04:22:00,756: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:22:00,756: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:22:00,756: INFO: student]: Student  Register Number: 10
+[2022-07-15 04:22:00,756: INFO: student]: Register number assignment : 100
+[2022-07-15 04:22:00,757: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:22:00,757: INFO: student]: Student  Register Number: 100
+[2022-07-15 04:22:00,757: INFO: main]: Instructors
+[2022-07-15 04:22:00,757: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 04:22:00,757: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 04:22:00,757: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 04:22:00,757: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 04:22:00,757: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 04:22:00,757: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 04:22:00,757: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 04:22:00,757: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 04:22:00,757: INFO: ineuron]: Course list [<course.courses object at 0x000001E325630C10>, <course.courses object at 0x000001E325630CD0>, <course.courses object at 0x000001E325630E50>]
+[2022-07-15 04:22:00,757: INFO: main]: Job Information
+[2022-07-15 04:22:00,758: INFO: main]: Job Information: <class 'jobinfo.jobs'>
+[2022-07-15 04:24:00,285: INFO: main]: Student Details
+[2022-07-15 04:24:00,286: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:24:00,286: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:24:00,286: INFO: student]: Student  Register Number: 10
+[2022-07-15 04:24:00,286: INFO: student]: Register number assignment : 100
+[2022-07-15 04:24:00,286: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:24:00,286: INFO: student]: Student  Register Number: 100
+[2022-07-15 04:24:00,286: INFO: main]: Instructors
+[2022-07-15 04:24:00,286: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 04:24:00,286: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 04:24:00,287: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 04:24:00,287: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 04:24:00,287: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 04:24:00,287: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 04:24:00,287: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 04:24:00,287: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 04:24:00,287: INFO: ineuron]: Course list [<course.courses object at 0x000002C088340C10>, <course.courses object at 0x000002C088340CD0>, <course.courses object at 0x000002C088340E50>]
+[2022-07-15 04:24:00,287: INFO: main]: Job Information
+[2022-07-15 04:24:00,288: INFO: main]: Job Information: <jobinfo.jobs object at 0x000002C088340E80>
+[2022-07-15 04:24:30,831: INFO: main]: Student Details
+[2022-07-15 04:24:30,831: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:24:30,831: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:24:30,831: INFO: student]: Student  Register Number: 10
+[2022-07-15 04:24:30,831: INFO: student]: Register number assignment : 100
+[2022-07-15 04:24:30,831: INFO: student]: Student Name : Girija O K
+[2022-07-15 04:24:30,832: INFO: student]: Student  Register Number: 100
+[2022-07-15 04:24:30,832: INFO: main]: Instructors
+[2022-07-15 04:24:30,832: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-15 04:24:30,832: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-15 04:24:30,832: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-15 04:24:30,832: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-15 04:24:30,832: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-15 04:24:30,832: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-15 04:24:30,832: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-15 04:24:30,832: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-15 04:24:30,832: INFO: ineuron]: Course list [<course.courses object at 0x0000023426AB0C40>, <course.courses object at 0x0000023426AB0D00>, <course.courses object at 0x0000023426AB0E80>]
+[2022-07-15 04:24:30,832: INFO: main]: Job Information
+[2022-07-15 04:24:30,832: INFO: main]: Job Information: <jobinfo.jobs object at 0x0000023426AB0EB0>
+[2022-07-15 04:24:30,832: INFO: jobinfo]: Information about the job: Employee Name: Sam , Job Title : Data Analys , Salary : 40000
+[2022-07-16 13:15:52,476: INFO: main]: Student Details
+[2022-07-16 13:15:52,476: INFO: student]: Student Name : Girija O K
+[2022-07-16 13:15:52,476: INFO: student]: Student Name : Girija O K
+[2022-07-16 13:15:52,476: INFO: student]: Student  Register Number: 10
+[2022-07-16 13:15:52,476: INFO: student]: Register number assignment : 100
+[2022-07-16 13:15:52,476: INFO: student]: Student Name : Girija O K
+[2022-07-16 13:15:52,476: INFO: student]: Student  Register Number: 100
+[2022-07-16 13:15:52,476: INFO: main]: Instructors
+[2022-07-16 13:15:52,476: INFO: ineuron]: Instructor Details --> name: Krish,subjects: Data Analytics
+[2022-07-16 13:15:52,476: INFO: ineuron]: Instructor Details --> name: Sudhanshu,subjects: Data Science
+[2022-07-16 13:15:52,476: INFO: ineuron]: New course : Full stack FSDA,4000
+[2022-07-16 13:15:52,476: INFO: course]: Course information--> Name: Full stack FSDA, Fee: 4000  
+[2022-07-16 13:15:52,477: INFO: ineuron]: New course : Full stack FSDS,1700
+[2022-07-16 13:15:52,477: INFO: course]: Course information--> Name: Full stack FSDS, Fee: 1700  
+[2022-07-16 13:15:52,477: INFO: ineuron]: New course : Full stack JAVA,1500
+[2022-07-16 13:15:52,477: INFO: course]: Course information--> Name: Full stack JAVA, Fee: 1500  
+[2022-07-16 13:15:52,477: INFO: ineuron]: Course list [<course.courses object at 0x000002089E70F160>, <course.courses object at 0x000002089E70F280>, <course.courses object at 0x000002089E70DC00>]
+[2022-07-16 13:15:52,477: INFO: main]: Job Information
+[2022-07-16 13:15:52,477: INFO: main]: Job Information: <jobinfo.jobs object at 0x000002089E70F340>
+[2022-07-16 13:15:52,477: INFO: jobinfo]: Information about the job: Employee Name: Sam , Job Title : Data Analys , Salary : 40000
